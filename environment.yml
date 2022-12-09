@@ -1,0 +1,23 @@
+name: pygliderexp
+channels:
+  - conda-forge
+dependencies:
+  - jupyterlab
+  - python
+  - numpy
+  - pip
+  - xarray
+  - dask
+  - netcdf4
+  - gsw
+  - scipy
+  - bitstring
+  - pytest
+  - pytest-cov
+  - pooch
+  - matplotlib
+  - polars
+  - pip:
+    - dbdreader
+
+
